@@ -1,0 +1,16 @@
+name: SimpleSellGUI
+main: com.example.simplesellgui.SimpleSellGUIPlugin
+version: 1.0.0
+api-version: '1.21'
+authors: ["ChatGPT"]
+depend: [Vault]
+commands:
+  sellgui:
+    description: Open the sell GUI
+    usage: /sellgui
+    aliases: [sell]
+    permission: simplesellgui.use
+permissions:
+  simplesellgui.use:
+    description: Allows opening the sell GUI
+    default: true
